@@ -8,8 +8,10 @@
 </head>
 <body>
     <form action="">
-        <h3>Tên đăng nhập</h3>
-        <!--vui vẻ-->
+        <h1>Market Research Survey</h1>
+        <p>Please take a few moments to complete this satisfaction survey.</p>
+        <div></div>>
+        <h5>What is your age range?</h5>
     </form>
 </body>
 </html>
