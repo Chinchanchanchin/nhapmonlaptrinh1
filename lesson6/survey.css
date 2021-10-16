@@ -1,0 +1,32 @@
+ul{
+    list-style: none;
+}
+select{
+    width: 7cm;
+}
+.t, .aa, .pp, .a, .b, .c {
+    border: 1px solid black;
+}
+.t {
+    border-collapse: collapse;
+}
+
+.a, .b, .c {
+    text-align: center;
+    width: 2.9cm;
+}
+.pp{
+    width: 10cm;
+    font-weight: bold;
+}
+.aa{
+    text-align: center;
+    background-color: rgb(167, 161, 151);
+}
+h4{
+    font-weight: bold;
+}
+.bp{
+    background-color: rgb(243, 241, 226);
+}
+
