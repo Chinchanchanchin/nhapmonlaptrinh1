@@ -22,7 +22,7 @@
     font-weight: bold;
 }
 body {
-    background-image: url(/lesson4_htmlcoban/img/music-my-life-white-background-36465356.jpeg);
+    background-image: url(img/rose.jpg);
 }
 #header, #main, #sidebar, #footer {
     opacity: 0.8;
