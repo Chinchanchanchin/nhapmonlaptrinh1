@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            width: 100%;
+        }
+        .a1, .a2, .a3, .a4 {
+            width: 24%;
+            height: 300px;
+            float: left;
+            padding: 0px;
+            border: solid rgb(148, 142, 142) 1px;
+            display: block;
+            margin: 5px 5px;
+        }
+        .a1:hover {
+           border: 2px solid black;
+        }
+        .a2:hover {
+            border: 2px solid black;
+        }
+        .a3:hover {
+            border: 2px solid black;
+        }
+        .a4:hover {
+            border: 2px solid black;
+        }
+        img {
+            width: 100%;
+            height: 200px;
+         
+            
+        }
+        p {
+            clear: both;
+        }
+        .b1, .b2, .b3, .b4 {
+            
+            text-align: center;
+            line-height: 46px;
+        }
+        * {
+            box-sizing: border-box;
+            
+        }
+        @media screen and (max-width: 700px) {
+            .main {
+            width: 100%;
+            }
+           .a1, .a2, .a3, .a4 {
+               
+               width: 48%;
+           }
+           
+        }
+        @media screen and (max-width:500px) {
+            .main {
+                width: 100%;
+            }
+            .a1, .a2, .a3, .a4 {
+                width: 100%;
+            }
+        }
+        @media screen and (min-width:700px) {
+            .a1, .a2, .a3, .a4 {
+                width: 23%;
+            }
+            .main {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Responsive Image Gallery</h2>
+    <h4>Resize the browser window to see the effect.</h4>
+    <div class="main">
+        <div class="a1">
+            <div><a target="blank" href="img/download.jpeg">
+            <img src="img/download.jpeg" alt=""></a></div>
+            <div class="b1">Add a description of the image here</div>
+        </div>
+        <div class="a2">
+            <div><a target="blank" href="img/statue_of_liberty_and_newyork_city.jpeg">
+            <img src="img/statue_of_liberty_and_newyork_city.jpeg" alt=""></a></div>
+            <div class="b2">Add a description of the image here</div>
+        </div>
+        <div class="a3">
+            <div><a target="blank" href="img/thuysy.jpeg">
+            <img src="img/thuysy.jpeg" alt=""></a></div>
+            <div class="b3">Add a description of the image here</div>
+        </div>
+        <div class="a4">
+            <div><a target="blank" href="img/download.jpeg">
+            <img src="img/download.jpeg" alt=""></a></div>
+            <div class="b4">Add a description of the image here</div>
+        </div>
+        
+    </div>  
+    
+    <p style="padding: 10px;">This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%)</p>
+</body>
+</html>
