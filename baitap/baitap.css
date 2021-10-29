@@ -1,0 +1,58 @@
+header {
+    background-color: coral;
+    width: 100%;
+    height: 100px;
+}
+.a1 {
+    background-color: white;
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+
+}
+ul {
+    line-height: 100px;
+}
+main {
+    width: 100%;
+    height: 500%;
+}
+p {
+    padding: 20px;
+}
+.phan1 {
+    width: 20%;
+    height: 500px;
+    background-color: rgb(153, 221, 221);
+    float: left;
+}
+.phan2 {
+    width: 60%;
+    height: 500px;
+    background-color: rgb(186, 119, 219);
+    float: left;
+}
+.phan3 {
+    width: 20%;
+    height: 500px;
+    background-color: rgb(226, 226, 162);
+    float: left;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: yellowgreen;
+    clear: both;
+}
+@media screen and (max-width:500px) {
+    .phan1 {
+        width: 100%;
+    }
+    .phan2 {
+        width: 100%;
+    }
+    .phan3 {
+        width: 100%;
+    }
+    
+}
