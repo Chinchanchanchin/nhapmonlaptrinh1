@@ -5,23 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="casestudy.css">
-
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 <body>
-    <section class="home"> 
+    <section id="home"> 
         <img class="anhlogo" src="img/logo.png" alt="">
         <div class="banner">
             <h1>Hair Studio</h1>
-            <h3>Style Your Hair Is Style Your Life</h3>
+            <h4>Style Your Hair Is Style Your Life</h4>
             <div class="findout">
                 <a href=""><span></span><p>Find Out</p></a>
                 <a href=""><span></span><p>Read More</p></a>
             </div>
         </div>
-    <nav>   
-        <div>
+    </section>
+    <section id="sidenav"> 
+        <nav>
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">Features</a></li>
@@ -29,14 +32,17 @@
                 <li><a href="">Testimonial</a></li>
                 <li><a href="">Meet Us</a></li>
             </ul>
-        </div>
-    </nav>     
-        
-    </section>
-    <section class="ff">
-        <div>
-            <h1 class="feature">FEATURES</h1>
-            <h1 class="whychoose">Why Choose Us</h1>
+        </nav>  
+    </section>  
+    <div id="sidemenu">
+        <img src="img/menu.png" alt="menu">
+    </div> 
+    <section id="ff">
+        <div class="tittle">
+            <div class="feature">
+                <p>FEATURES</p>
+                <h1 class="whychoose">Why Choose Us</h1>
+            </div>
             <div class="features">
                 <div class="f1">
                     <h1>Experienced Staff</h1>
@@ -65,8 +71,10 @@
         </div>
     </section>
     <section id="service">
-        <h1 class="feature">FEATURES</h1>
-        <h1 class="whychoose">Why Choose Us</h1>
+        <div class="feature" style="text-align: center;">
+            <p >FEATURES</p>
+            <h1 class="whychoose">Why Choose Us</h1>
+        </div>
         <div class="flexpic">
             <div class="pic">
                 <div imgg><img src="img/pic-1.jpg" alt=""></div>
@@ -107,8 +115,10 @@
         </div>
     </section>
     <section id="gancuoi">
-        <h1 class="feature">FEATURES</h1>
-        <h1 class="whychoose">Why Choose Us</h1>
+        <div class="feature" style="text-align: center;">
+            <p>FEATURES</p>
+            <h1 class="whychoose">Why Choose Us</h1>
+        </div>
         <div class="ke">    
             <div class="ken">
                 <div class="kenn">
@@ -142,10 +152,10 @@
             </div>
         </div>    
     </section>
-    <section class="cuoi">
+    <section id="cuoi">
         <img class="footerimg" src="img/footer-img.png" alt="" >
-        <div>
-            <h1 class="feature" style="padding: 30px;">CONTACT</h1>
+        <div class="feature" style="text-align: center;">
+            <p>CONTACT</p>
             <h1 class="whychoose">Visit Shop Today</h1>
         </div>
         <div class="footer1">
@@ -172,3 +182,18 @@
     </section>
 </body>
 </html>
+<script>
+    let sidemenu = document.getElementById("sidemenu");
+    let sidenav = document.getElementById("sidenav");
+    let menu = document.getElementById("menu");
+    // sidenav.style.right = "-250px";
+    sidemenu.onclick = function() {
+        if(sidenav.style.right == "-250px") {
+            sidenav.style.right = "0";
+            menu.src = "img/close.png";
+        } else {
+            sidenav.style.right = "-250px";
+            menu.src = "img/menu.png";
+        }
+    }
+</script>
