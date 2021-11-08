@@ -376,16 +376,3 @@ nav ul li a {
     text-decoration: none;
     color: white;
 }
-
-@media screen and (min-width:500px){
-    .ken {
-        width: 100%;
-        
-    }
-    .pic {
-        width: 100%;
-    }
-    .experience {
-        width: 100%;
-    }
-}
