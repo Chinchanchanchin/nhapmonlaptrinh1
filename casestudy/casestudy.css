@@ -93,7 +93,7 @@
 .feature p {
     margin-top: 40px;
 }
-.feature ::after {
+.feature p::after {
     content: '';
     width: 50px;
     height: 35px;
