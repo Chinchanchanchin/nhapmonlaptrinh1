@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'poppins', sans-serif;
 }
 .home {
     height: 700px; 
@@ -41,7 +42,7 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
-    width: 180px;
+    width: 190px;
     z-index: 1; 
     transition: color 0.5s;
     position: relative;
@@ -120,7 +121,6 @@
     color: #019578;
     font-weight: lighter;
     font-family: 'poppins', sans-serif;
-    font-weight: lighter;
 }
 #service {
     width: 100%;
@@ -189,17 +189,126 @@ hr {
     width: 100%;
     height: 400px;
 }
+.ke {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
 .ken {
     display: flex;
-    margin: 30px;
+    padding: 20px;
     justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 27%;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow:0 10px 20px 3px #00968814;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.ken p {
+    font-size: 17px;
+    font-family: 'poppins', sans-serif;
+    font-weight: lighter;
 }
 .kenn {
     display: flex;
-    justify-content: center;
     box-sizing: border-box;
+    margin: 20px 20px 30px 0;
 }
 .danhgia {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+    margin-left: -30px;
+    margin-right: 20px;
+}
+.cen h4 {
+    color: #019578;
+    font-weight: lighter;
+}
+.cen i {
+    color: #019578;
+}
+.cen h3 {
+    font-weight: lighter;
+}
+.cuoi {
+    width: 100%;
+    position: relative;
+    background: #efefef;
+    
+}
+.footer1 {
+    display: inline;
+    justify-content: center;
+    width: 80%;
+    height: 100px;
+    
+}
+.footer2a {
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+.footer2b {
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    text-align: right;
+}
+.footer3 {
+    text-align: center;
+    clear: both;
+}
+.footer2 h3 {
+    font-family: 'poppins', sans-serif;
+    padding: 20px;
+    color: rgb(124, 120, 120);
+    font-weight: lighter;
+    font-size: larger;
+}
+.footer2 h4 {
+    font-family: 'poppins', sans-serif;
+    margin-top: 20px;
+    color: rgb(151, 150, 150);
+    font-weight: lighter;
+    font-size: larger;
+}
+.footer2b i {
+    margin-left: 10px;
+    color: #009688;
+}
+.footer2a i {
+    margin-right: 10px;
+    color: #009688;
+}
+.footer3 .bi {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin: 40px 5px 0;
+    transition: .5s;
+    cursor: pointer;
+    content: #009688;
+    line-height: 40px;
+}
+.footer3 .bi :hover {
+    color:#ff9900;
+}
+.footer3 p {
+    margin-top: 10px;
+    color: rgb(151, 150, 150);
+    font-weight: lighter;
+}
+.footerimg {
+    width: 370px;
+    opacity: 0.1;
+    left: 50%;
+    top: 35%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.imgg {
+    text-align: center;
+    position: absolute;
 }
