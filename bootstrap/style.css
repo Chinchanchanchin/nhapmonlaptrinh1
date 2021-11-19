@@ -230,3 +230,26 @@ header .container .col-md-7 {
     border-radius: 340px;
     width: 60%;
 }
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    padding: 14vmin 18vmin;
+}
+footer p span {
+    color: #ff512f;
+}
+footer input {
+    border: none !important;
+}
+footer input::placeholder {
+    color: white !important;
+}
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+}
+footer .column i {
+    color: #dd2476;
+}
+footer .column i {
+    padding: 0 0.5em;
+}
