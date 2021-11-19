@@ -1,0 +1,63 @@
+.event h6 span {
+    color: teal;
+}
+.a1 {
+    background-color: rgb(241, 236, 236);
+}
+
+button {
+    border: teal solid 1px;
+    color: teal;
+    background-color: white;
+    padding: 10px;
+}
+.register a {
+    text-decoration-line: none;
+}
+.register__btn {
+    margin-left: 50vmin;
+    margin-top: 2vmin;
+    background-color: teal;
+    color: white;
+    padding: 5px;
+}
+.get__involved {
+    font-size: 25px;
+    margin: 15px;
+}
+.meetup {
+    margin: 30px;
+}
+.meetup img {
+    width: 100px;
+    height: 100px;
+    
+}
+.meetup h5 {
+    margin: 20px;
+}
+.mission {
+    width: 100%;
+    background-color: rgb(226, 219, 219);
+    padding: 30PX;
+    
+}
+.mission h3 {
+    
+    padding: 2vmin;
+}
+.mission p {
+    color: grey;
+}
+.mission2 i {
+color: teal;
+font-SIZE: 70PX;
+padding: 4vmin;
+}
+.mission2 p {
+    padding: 2vmin;
+}
+footer {
+    width: 100%;
+    background-color: rgb(168, 166, 166);
+}
