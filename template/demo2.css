@@ -1,5 +1,5 @@
 .nav {
-    display: inline;
+    
     padding-right: 8vmin;
 }
 
@@ -18,7 +18,7 @@
 }
 .header__nav {
     float: right;
-    margin: 3vmin 3vmin 3vmin 20vmin;
+    margin-top: 3vmin;
 }
 .header__nav--ul {
     display: flex;
@@ -30,7 +30,7 @@
 }
 
 .header__banner {
-    
+    clear: both;
     background-image: url(/template/images\ 2/slider.jpg);
     background-position-y: -70px;
     background-size: 100%;
