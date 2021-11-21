@@ -241,6 +241,9 @@ footer p span {
 footer input {
     border: none !important;
 }
+footer .text-muted {
+    font-size: small;
+}
 footer input::placeholder {
     color: white !important;
 }
