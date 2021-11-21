@@ -1,4 +1,68 @@
-.event h6 span {
+.nav {
+    display: inline;
+    padding-right: 8vmin;
+    
+}
+.nav a {
+    text-decoration-line: none;
+    
+}
+.nav--a {
+    color: black;
+}
+.header__nav {
+    float: right;
+    margin: 3vmin 3vmin 3vmin 20vmin;
+}
+.header__nav--ul {
+    display: flex;
+}
+.header__logo--img {
+    width: 20vmin;
+    height: 4vmin;
+    margin: 3vmin 3vmin 3vmin 20vmin;
+}
+
+.header__banner {
+    
+    background-image: url(/template/images\ 2/slider.jpg);
+    background-position-y: -70px;
+    background-size: 100%;
+    
+    
+} 
+.share {
+    background: black;
+    opacity: 0.6;
+    color: white;
+}
+
+.header__banner h1 {
+    text-align: center;
+    padding: 10vmin 10vmin 5vmin 10vmin;
+    font-family: sans-serif;
+    font-size: 3em;
+   
+}
+.header__banner p {
+    display: block;
+    margin: 0 20vmin 0 20vmin;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+.header__banner h5 {
+    padding: 5vmin;
+}
+
+.nav--item {
+    color: teal;
+    border: teal solid 1px;
+    padding: 0.5vmin 2.5vmin 0.5vmin 2.5vmin;
+}
+.address__event {
+    padding: 5vmin 5vmin 3vmin 5vmin;
+}
+.address__event span {
     color: teal;
 }
 .a1 {
@@ -16,46 +80,51 @@ button {
 }
 .register__btn {
     margin-left: 50vmin;
-    margin-top: 2vmin;
+    margin-top: 5vmin;
     background-color: teal;
     color: white;
     padding: 5px;
 }
 .get__involved {
-    font-size: 25px;
-    margin: 15px;
+    font-size: 30px;
+    margin: 5vmin 0 3vmin 0;
 }
-.meetup {
+.involved__meetup {
     margin: 30px;
 }
-.meetup img {
+.involved__meetup img {
     width: 100px;
     height: 100px;
     
 }
-.meetup h5 {
+.involved__meetup h5 {
     margin: 20px;
 }
 .mission {
     width: 100%;
     background-color: rgb(226, 219, 219);
-    padding: 30PX;
+    padding-top: 2vmin;
     
 }
-.mission h3 {
-    
+.mission__p {
+    font-size: 30px;
     padding: 2vmin;
+    
 }
-.mission p {
-    color: grey;
+.mission h6 {
+    padding-bottom: 0;
 }
+
 .mission2 i {
-color: teal;
+color: rgb(72, 216, 226);
 font-SIZE: 70PX;
 padding: 4vmin;
 }
 .mission2 p {
     padding: 2vmin;
+}
+.mission2 h5 {
+    color: rgb(72, 216, 226);
 }
 footer {
     width: 100%;
