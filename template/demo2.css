@@ -1,7 +1,13 @@
 .nav {
     display: inline;
     padding-right: 8vmin;
-    
+}
+
+.nav--a:hover {
+    color: teal;
+}
+.nav--item:hover {
+    color: black;
 }
 .nav a {
     text-decoration-line: none;
@@ -28,7 +34,7 @@
     background-image: url(/template/images\ 2/slider.jpg);
     background-position-y: -70px;
     background-size: 100%;
-    
+    background-repeat: no-repeat;
     
 } 
 .share {
@@ -60,13 +66,14 @@
     padding: 0.5vmin 2.5vmin 0.5vmin 2.5vmin;
 }
 .address__event {
-    padding: 5vmin 5vmin 3vmin 5vmin;
+    padding: 5vmin 5vmin 3vmin 30vmin;
+    
 }
 .address__event span {
     color: teal;
 }
 .a1 {
-    background-color: rgb(241, 236, 236);
+    background-color: rgb(235, 231, 231);
 }
 
 button {
@@ -79,11 +86,11 @@ button {
     text-decoration-line: none;
 }
 .register__btn {
-    margin-left: 50vmin;
-    margin-top: 5vmin;
+    margin-left: 30vmin; 
+    margin-top: 5vmin; 
     background-color: teal;
     color: white;
-    padding: 5px;
+    
 }
 .get__involved {
     font-size: 30px;
@@ -102,7 +109,7 @@ button {
 }
 .mission {
     width: 100%;
-    background-color: rgb(226, 219, 219);
+    background-color: rgb(235, 231, 231);
     padding-top: 2vmin;
     
 }
@@ -117,8 +124,8 @@ button {
 
 .mission2 i {
 color: rgb(72, 216, 226);
-font-SIZE: 70PX;
-padding: 4vmin;
+font-SIZE: 80px;
+padding: 5vmin;
 }
 .mission2 p {
     padding: 2vmin;
@@ -128,5 +135,9 @@ padding: 4vmin;
 }
 footer {
     width: 100%;
-    background-color: rgb(168, 166, 166);
+    background-color: rgb(124, 120, 120);
+    padding: 1.5vmin;
+}
+footer span {
+    color: teal;
 }
