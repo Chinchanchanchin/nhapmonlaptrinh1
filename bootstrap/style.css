@@ -241,7 +241,7 @@ footer p span {
 footer input {
     border: none !important;
 }
-footer .text-muted {
+footer .row p {
     font-size: small;
 }
 footer input::placeholder {
