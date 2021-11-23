@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    
+}
+header footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* header */
+.navbar--brand--img {
+    width: 120px;
+    height: 80px;
+    margin-left: 5vmin;
+}
+
+.form__flex {
+    width: 350px;
+}
+.input-group {
+    margin-left: 5vmin;
+}
+
+.input-group button img {
+    width: 20px;
+    height: 15px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-right: 2em;
+    font-size: 18px;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    list-style-type: none;
+      
+}
+
+.nav-link {
+    color: black;
+}
+.dropdown:hover {
+    background-color: rgb(248, 246, 246);
+}
+.nav-link:hover {
+    color: white;
+}
+.dropdown:hover .dropdown-content {
+    
+    display: inline-flex;
+}
+/* main */
+
+.carousel-slider {
+    margin: 5vmin 20vmin 5vmin 20vmin;
+}
+
+.carousel-item {
+    height: 700px;
+}
+
+.iframe1 p {
+    padding: 0;
+    
+}
+.iframe-video {
+    text-align: center;
+    padding-top: 3em;
+    box-sizing: border-box;
+    
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0px 8px 20px #d8d8d6 
+}
+header hr {
+    
+    margin: 10px 100px 10px 100px;
+
+}
+.iframe-video:hover {
+    transform: translateY(7px);
+    box-shadow: 0px 8px 15px rgb(196, 25, 68);
+} 
+.baiviet {
+    padding: 3vmin;
+}
+.baiviet--text--1 {
+    text-align: center;
+    position: relative;
+    flex-basis: 47%;
+    color: white;
+}
+.baiviet--text--hover {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0; 
+    transform: translateX(-50%);
+    transition: 1s; 
+
+}
+.olay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.5),#009688);
+    transition: 1s;
+    opacity: 0;
+}
+.baiviet--text--1:hover .olay {
+    opacity: 0.7;
+}
+.baiviet--text--1:hover .baiviet--text--hover {
+    bottom: 40%;
+    opacity: 1;
+}
+.baiviet--text img {
+    width: 150px;
+    height: 150px;
+}
+.baiviet--text--a:hover {
+    position: relative;
+    
+}
+.baiviet--text a {
+    text-decoration-line: none;
+    color: black;
+}
+.baiviet--text a:hover {
+    color: rgb(196, 25, 68);
+}
+.baiviet--text {
+    margin: 1em;
+}
+.baiviet--text p {
+    margin-top: 1em;
+}
+
+.pc-img img {
+    width: 150px;
+    height: 160px;
+}
+.news a {
+    text-decoration-line: none;
+    color: black;
+}
+.ysl {
+    background: url(image/ysl1.jpeg);
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.ysl a {
+    text-decoration-line: none;
+}
+.ysl h3:hover {
+    color: red;
+}
+.ysl-h3 {
+    position: relative;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    right: -15vmin;
+    top: -5vmin;
+    z-index: 3;
+}
+.ysl-text {
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(209, 39, 39);
+    z-index: 2;
+    left: -3vmin;
+    bottom: -5vmin;
+    background: red;
+   
+}
+.ysl-text a {
+    color: white;
+    text-decoration-line: none;
+}
+
+.ysl-text a:hover {
+    color: black;
+}
+
+
+
+/* footer */
+footer {
+    color: white;
+}
+footer .footer-first img {
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+footer .footer-first i {
+    font-size: 25px;
+    margin: 0 5px 0 30px;
+    border-radius: 50%;
+    border: white 1px solid;
+    padding: 10px;
+}
+footer .footer-first i:hover {
+    color: rgb(196, 25, 68);
+    border: solid rgb(196, 25, 68) 1px;
+}
+footer .footer-first a {
+    padding-bottom: 1em;
+}
+footer a {
+    color: white;
+    text-decoration-line: none;
+}
+footer a:hover {
+    text-decoration-line: underline;
+    color: rgb(196, 25, 68);
+}
+footer .footer-second a {
+    padding-left: 15px;
+    border-right: solid white 1px ;
+    padding-right: 15px;
+} 
+
+
