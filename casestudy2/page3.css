@@ -44,7 +44,7 @@ form {
     text-decoration-line: none;
 }
 .col-md-12 a:hover {
-    color: gray;
+    color: rgb(194, 81, 81);
 }
 .col-md-12 img:hover {
     opacity: 0.6;

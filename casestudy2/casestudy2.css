@@ -133,8 +133,8 @@ header hr {
     opacity: 0.6;
 }
 .pc-img img {
-    width: 150px;
-    height: 160px;
+    width: 107px;
+    height: 145px;
 }
 .what {
     background: whitesmoke;
@@ -368,4 +368,16 @@ footer .footer-second a {
     padding-right: 15px;
 } 
 
-
+@media only screen and (max-width:365px){
+    .carousel {
+        width: 50%;
+    }
+    .frame1 {
+        float: right;
+        width: 50%;
+    }
+    .iframe-video {
+        width: 100px;
+        height: 80px;
+    }
+}
