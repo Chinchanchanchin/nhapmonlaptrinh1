@@ -372,5 +372,53 @@ footer .footer-second a {
       display: flex;
       flex-wrap: wrap;
   }
+  .ysl {
+      margin-left: -80px;
+      width: 220px;
+  }
+  .ysl-h3 {
+      font-size: 15px;
+  }
+  .ysl-text {
+      margin-left: -12px;
+  }
+  .gallery-img1 {
+      margin-left: -100px;
+      width: 200px;
+      
+  }
+  .gallery-text {
+      margin-left: -60px;
+  }
   
 }
+@media only screen and (max-width:768px){
+   
+    .baiviet-re {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .iframe-video {
+        height: 300px;
+    }
+    .ysl {
+        margin-left: -100px;
+        width: 350px;
+    }
+    .ysl-h3 {
+        font-size: 15px;
+    }
+    .ysl-text {
+        margin-left: -12px;
+    }
+    .gallery-img1 {
+        margin-left: -100px;
+        width: 400px;
+        
+    }
+    .gallery-text {
+        margin-left: -60px;
+    }
+    
+  }

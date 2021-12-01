@@ -51,10 +51,7 @@ main .col-md-12 a:hover {
 main .col-md-12 img:hover {
     opacity: 0.6;
 }
-main .col-md-12 div {
-    box-sizing: border-box;
-    display: block;
-}
+
 @media only screen and (max-width:365px) {
     .col-md-12 div {
         display: flex;
