@@ -158,6 +158,9 @@ header hr {
 .news-img img:hover {
     opacity: 0.6;
 }
+.news-img-1 {
+    margin-left: 30px;
+}
 .ysl {
     background: url(image/ysl1.jpeg);
     background-repeat: no-repeat;
@@ -390,6 +393,9 @@ footer .footer-second a {
   .gallery-text {
       margin-left: -60px;
   }
+  .datbao-text-a {
+    margin-bottom: 10px;
+}
   
 }
 @media only screen and (max-width:768px){
@@ -410,7 +416,7 @@ footer .footer-second a {
         font-size: 15px;
     }
     .ysl-text {
-        margin-left: -12px;
+        margin-left: -30px;
     }
     .gallery-img1 {
         margin-left: -100px;
@@ -420,5 +426,7 @@ footer .footer-second a {
     .gallery-text {
         margin-left: -60px;
     }
-    
+    .datbao-text-a {
+        margin-bottom: 10px;
+    }
   }
