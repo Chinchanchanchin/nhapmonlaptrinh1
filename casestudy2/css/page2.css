@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.col-md-8 {
+    padding: 2em; 
+}
+.col-md-8 h1 {
+    padding: 1em 0 1em 1em;
+    text-align: center;
+}
+.col-md-8 p {
+    text-indent: 10px;
+    margin-right: 2em;
+}
+.col-md-8 h5 {
+    text-indent: 10px;
+}
+.col-md-8 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.col-md-8 iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.col-md-4 {
+    padding: 1em 0 1em 2em ;
+    font-size: 15px;
+}
+.col-md-4 h3 {
+    padding: 2em 0 0 2em;
+}
+.col-md-4 h6 {
+    padding: 1em 0em 1em 2em;
+} 
+.col-md-4 p {
+    padding: 1em 0em 1em 2em;
+}
+.col-md-4 img {
+    display: block;
+    width: 350px;
+    height: 200px;
+    margin: 2em 0 1em 2em;
+    align-items: center;
+} 
+.col-md-4 a {
+    color: black;
+    text-decoration-line: none;
+}
+.col-md-4 a:hover {
+    color: rgb(170, 32, 32);
+}
+.col-md-4 img:hover {
+    opacity: 0.6;
+}
+.fab {
+    font-size: 30px;
+    padding-right: 1em;
+    align-items: flex-end;
+}
+.fab:hover {
+    color: brown;
+    cursor: pointer;
+}
+@media only screen and (max-width:365px){
+    .dropdown:hover .dropdown-content {
+        display: block;
+        text-align: center;
+        margin-left: -50px;
+    }
+    .dropdown:hover .nav-link1 {
+        margin-top: -9em;
+        
+    }
+    .col-md-8 iframe {
+        width: 200px;
+        height: 120px;
+        padding: 0 0 5px 0;
+    }
+    .col-md-8 img {
+        width: 200px;
+    }
+    .col-md-4 {
+        padding: 0;
+    }
+   
+}
+@media only screen and (max-width:768px){
+    .dropdown:hover .dropdown-content {
+        display: block;
+        text-align: center;
+        margin-left: -50px;
+    }
+    .dropdown:hover .nav-link1 {
+        margin-top: -9em;
+        
+    }
+    .col-md-8 iframe {
+        width: 300px;
+        height: 220px;
+        padding: 0 0 5px 0;
+    }
+    .col-md-8 img {
+        width: 300px;
+    }
+    .col-md-4 {
+        padding: 0;
+    }
+    .col-md-4 img {
+        width: 200px;
+    }
+}
