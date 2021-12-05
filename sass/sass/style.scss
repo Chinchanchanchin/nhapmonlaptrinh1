@@ -4,7 +4,7 @@
   .block-title {
     font-size: 26px;
     text-align: center;
-    color: #575656;
+    @include coloring();
     text-transform: uppercase;
     font-weight: 400;
     margin-top: 28px; }
@@ -39,10 +39,10 @@ header {
           float: left;
           margin-left: 35px; }
         .nav__link {
-            color: #575656;
+            @include coloring();
             font-weight: bold; }
         .nav__link--btn {
-            color: #61c0bd;
+            @include colorblue();
             border: 2px solid #b5e1e0;
             padding: 8px 25px; }
 }
@@ -94,12 +94,12 @@ header {
       float: left; 
       .event__next-event {
         font-size: 17px;
-        color: #61c0bd;
+        @include colorblue();
         font-weight: 600; }
-      
+    
  
     .event__timing {
-      color: #575656; }
+      @include coloring(); }
     .event__details {
       margin-top: 8px;
       font-size: 14px;
@@ -136,7 +136,7 @@ header {
         margin-top: 34px; }
     .collaborate__subtitle {
       text-transform: uppercase;
-      color: #575656;
+      @include coloring();
       font-size: 17px;
       margin-bottom: 10px; }
     .collaborate__paragraph {
@@ -147,7 +147,7 @@ header {
       line-height: 27px; }
     .collaborate__link {
       text-transform: uppercase;
-      color: #61c0bd;
+      @include colorblue();
       border: 2px solid #b4e0e6;
       padding: 9px 44px;
       font-size: 14px; }
@@ -188,7 +188,7 @@ header {
       padding-top: 50px;
       padding-bottom: 15px; }
     .mission__details {
-      color: #575656;
+      @include coloring();
       font-size: 14px;
       padding-bottom: 35px;
       padding-left: 20px;
@@ -218,7 +218,7 @@ header {
     padding-top: 8px;
     padding-bottom: 20px;
     border-top: 1px solid #dcdde0; }
-    .members .owl-carousel.owl-drag .owl-item {
+    .owl-item {
       display: table-cell;
       float: none;
       vertical-align: middle; }
@@ -237,7 +237,7 @@ header {
           padding-bottom: 28px;
           border-bottom: 1px solid #4e525b; 
           .footer__social a {
-            color: #61c0bd;
+            @include colorblue();
             margin-left: 20px; }
         }
         .footer__copyright {
@@ -272,4 +272,10 @@ header {
       
       .clearfix {
         clear: both; }
-    
+    @mixin coloring {
+      color: #575656;
+    }
+    @mixin colorblue {
+      color: #61c0bd;
+    }
+    @import 'responsive';
