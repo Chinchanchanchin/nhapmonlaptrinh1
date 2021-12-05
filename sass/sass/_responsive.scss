@@ -14,11 +14,13 @@
       margin: 0 auto 35px;
       height: 150px;
       padding-top: 19px;
-      text-align: center; }
+      text-align: center; 
     .event__next, .event__register {
       float: none; }
     .blog-post__para {
-      margin-bottom: 30px; } }
+      margin-bottom: 30px; } 
+    }
+  }
   /* -------------------------------------------------
   /* width <= 667px
   /* -------------------------------------------------*/
@@ -33,11 +35,13 @@
       float: initial;
       margin-top: 0px;
       text-align: center;
-      margin-bottom: 20px; }
-      .header__nav .nav {
+      margin-bottom: 20px; 
+      .nav {
         float: initial;
         display: inline-block;
-        margin-left: 10px; } }
+        margin-left: 10px; } 
+      }
+    }
   
   /* -------------------------------------------------
   /* width <= 600px
